@@ -1,0 +1,55 @@
+:root{
+    --cor-fundo: #FFFFB3;
+    --cor-fonte: #0A2463;
+    --cor-destaque: #FB3640;
+
+    --trans-time: 0.35s ease-in-out;
+}
+body{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: lemon milk;
+    background-color: var(--cor-fundo);
+    color: var(--cor-destaque);
+}
+h1#titulo_principal{
+    font-size: 3rem;
+}
+h1#titulo_principal:hover{
+    color: var(--cor-fonte);
+    transition: var(--trans-time);
+}
+section#rosto{
+    width: 18rem;
+    height: 18rem;
+    background: var(--cor-fonte);
+    border-radius: 100%;
+}
+section#rosto:hover{
+    scale: 1.075;
+    transition: var(--trans-time);
+    background-color: var(--cor-destaque);
+    color: var(--cor-fonte);
+}
+div#olhos{
+    margin-top: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+section.olho{
+    font-size: 5rem;
+}
+
+div#boca{
+    margin-top: 40%;
+    font-size: 5rem;
+    rotate: 90deg;
+}
+
+
