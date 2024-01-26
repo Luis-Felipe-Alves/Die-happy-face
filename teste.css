@@ -29,10 +29,10 @@ section#rosto{
     height: 18rem;
     background: var(--cor-fonte);
     border-radius: 100%;
+    transition: var(--trans-time);
 }
 section#rosto:hover{
     scale: 1.075;
-    transition: var(--trans-time);
     background-color: var(--cor-destaque);
     color: var(--cor-fonte);
 }
